@@ -33,7 +33,7 @@
           <a href="#" class="social-icon"><i class="fa fa-linkedin"></i></a>
           <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
         </div>
-        <a href="#profile" class="btn btn-large btn-red smooth-scroll">Know Me Better</a>
+        <a href="#profile" class="btn btn-large btn-red smooth-scroll mt-4">Know Me Better</a>
       </div>
     </div>
   </div>
@@ -62,11 +62,11 @@
         <li class="nav-item">
           <a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link smooth-scroll" href="#service">Service</a>
-        </li>
-        <li class="nav-item">
+        <li class="nav-item d-none">
           <a class="nav-link smooth-scroll" href="#resume">Resume</a>
+        </li>
+        <li class="nav-item d-none">
+          <a class="nav-link smooth-scroll" href="#service">Service</a>
         </li>
         <li class="nav-item">
           <a class="nav-link smooth-scroll" href="#skills">Skills</a>
@@ -80,7 +80,7 @@
   </div>
 </nav>
 
-<section id="profile">
+<section id="profile" class="bg-dark">
   <div class="container">
     <div class="row">
       <div class="col-lg-4 d-none d-lg-block">
@@ -90,7 +90,7 @@
         </div>
       </div>
       <div class="col-lg-8">
-        <div class="profile-content pl-lg-4">
+        <div class="profile-content pl-lg-3">
           <h3 class="title-xl">HELLO, MY NAME IS WIRANTO!</h3>
           <p class="text-white text-large">I am 25 years old, cat lovers & game addict. Born & grew up in Kuningan, West Java. Highly motivated creative developer with profesional skills.</p>
           <span class="sep-line-small"></span>
@@ -115,7 +115,7 @@
   </div>
 </section>
 
-<section id="portfolio">
+<section id="portfolio" class="bg-grey-dark">
   <div class="container">
     <div class="row text-content text-center justify-content-center">
       <div class="col-lg-8">
@@ -170,19 +170,60 @@
   </div>
 </section>
 
-<section id="service">
+<section id="resume" class="d-none">
 
 </section>
 
-<section id="resume">
+<section id="service" class="d-none">
 
 </section>
 
-<section id="skills">
+<section id="skills" class="bg-dark">
 
 </section>
 
-<section id="contact">
+<section id="contact" class="bg-grey-dark">
+  <div class="row justify-content-center">
+    <div class="col-lg-8 text-center">
+      <h3 class="title-xl">CONTACT ME</h3>
+      <p class="mt-3 text-grey text-large"><i>Have a project you'd like to discuss?</i></p>
+      <span class="sep-line-medium"></span>
+    </div>
+  </div>
+
+  <div class="row justify-content-center mt-5 pt-lg-5">
+    <div class="col-lg-8 text-center">
+      <form action="mailto:kiwiranto@gmail.com.com" method="post" enctype="text/plain" class="form-hire">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control form-transparent bd-bottom" id="name" placeholder="Name" aria-required="true" aria-invalid="true">
+              <label id="name-error" class="error" for="name">This field is required.</label>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="form-group">
+              <input type="email" name="email" class="form-control form-transparent bd-bottom" id="email" placeholder="Email" aria-required="true" aria-invalid="true">
+              <label id="name-error" class="error" for="email">This field is required.</label>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="form-group">
+              <input type="text" name="subject" class="form-control form-transparent bd-bottom" id="subject" placeholder="Subject" aria-required="true" aria-invalid="true">
+              <label id="name-error" class="error" for="subject">This field is required.</label>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="form-group">
+              <textarea name="message" class="form-control form-transparent bd-bottom" id="message" rows="12" placeholder="Message" aria-required="true"></textarea>
+              <label id="name-error" class="error" for="email">This field is required.</label>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>  
+  </div>
+
 
 </section>
 
